@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+
+    /* 
+    #c5ebd6
+    #83e1ad
+    #3ddc84
+    #2fa866
+    #1a5c37
+    #063d1e
+    */
+    
+    :root {
+        --cor0: #ffffff;
+        --cor1: #564afd;
+        --cor2: #8b3030;
+        --cor3: #2f41a8;
+        --cor4: #940707;
+        --cor5: #000000;
+    
+        --fonte-padrao: Arial, Verdana, sans-serif;
+        --fonte-destaque: 'Bebas Neue', cursive;
+        --font-colr
+    }
+   iframe {
+        top: auto;
+        left: auto;
+   } 
+    * {
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    
+    BODY {
+        background-image: linear-gradient(to bottom, #145f0d, #5302be);
+        font-family: var(--fonte-padrao);
+        font-size: large;
+    }
+
+    button {
+        font-family: var(--fonte-padrao);
+        color: aqua;
+        font-size: large;
+
+    }
+    
+    a.externo::after {
+        content: '\00A0\1F517';
+    
+    }
+    
+    header {
+        background-image: url("FtProfissionais/BackgroudCode_pic.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-width: 150px;
+        text-align: center;
+        padding-top: 60px;
+    }
+    
+    header > h1 {
+        color: rgb(255, 255, 255);
+        font-family: "Rockwell Condensed";
+        font-size: 3em;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+        font-weight: normal;
+        }
+    
+    header > p {
+        font-family: "Open Sans";
+        font-size: 1.2em;
+        color: rgb(255, 255, 255);
+        max-width: 500px;
+        padding-right: 10px;
+        padding-left: 10px;   
+        margin: auto;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+    }
+
+    main {
+        text-align: left;
+background-color: rgb(255, 255, 255);
+min-width: 300px;
+max-width: 1000px;
+margin: auto;
+margin-bottom: 30px;
+padding: 20px;
+padding-top: 30%;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
+       }
+
+main h1 {
+    color: #1a5c37;
+    font-family: var(--font-android);
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+main h2 {
+    font-family: "ZCOOL QingKe HuangYou";
+    background-image: linear-gradient(to bottom, #2c346d, #141833);
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: normal;
+    text-indent: 8px;
+    color: white;
+}
+
+
+footer {
+    margin: auto;
+    background-image: linear-gradient(to bottom,#141833, #000000);
+    text-align: justify;
+    font-family:"ZCOOL QingKe HuangYou";
+    font-size: 1.8em;
+    min-height: 150px;
+    padding: 60px;
+    color:#ffffff;
+    position: relative;
+
+}
+
+main .titulo1 {
+    color: rgb(28, 12, 71);
+    font-family: "impact";
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-weight: normal;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+
+}
+
+
+
+main .vnd1 {
+    color: rgb(0, 0, 0);
+    font-family: "impact";
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-weight: normal;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+
+}
+
+main .tel1 {
+    color: rgb(0, 0, 0);
+    font-family: "impact";
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-weight: normal;
+    position: absolute;
+    top: 450px;
+    left: 300px;
+
+}
+
+main .vnd2 {
+    color: rgb(0, 0, 0);
+    font-family: "impact";
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-weight: normal;
+    position: absolute;
+    top: 400px;
+    left: 700px;
+
+}
+
+main .tel2 {
+    color: rgb(0, 0, 0);
+    font-family: "impact";
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-weight: normal;
+    position: absolute;
+    top: 450px;
+    left: 700px;
+
+}
+
+nav {
+background-image: linear-gradient(to bottom, #141833, #141833);
+padding: 10px; 
+box-shadow: 0px 7px 9px 0px rgba(0, 0, 0, 0.192);
+}
+
+nav > a {
+    background-image: linear-gradient(to bottom, #141833, #141833);
+    padding: 2px;
+    border-radius: 8px;
+    text-decoration: none;
+    position: relative;
+    top: 0px;
+    left: -455px;
+    transition-duration: .5s;
+    color: white;
+
+}
+
+nav > a:hover {
+background-image: linear-gradient(to bottom, #971313, #176f97);
+color: white;
+
+}
+
+
